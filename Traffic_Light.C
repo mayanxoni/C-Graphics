@@ -1,3 +1,4 @@
+//Here's my name written in the from of Lines using C Graphics
 #include<graphics.h>
 #include<stdio.h>
 #include<conio.h>
@@ -42,7 +43,7 @@ void main(){
 		cleardevice();
 		if(kbhit())
 			break;
-
+		
 	}
 	getch();
 }
